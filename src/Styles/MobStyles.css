@@ -1,0 +1,132 @@
+
+
+.mdiv1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon1{
+    margin: 0px 10px 0px 10px;
+    color: black;
+    height: 20px;
+    width: 20px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.desck {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.des {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sidebar {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    text-wrap: wrap;
+}
+
+.productsPage {
+    height: auto;
+    border: 2px solid red;
+    margin-left: 22%;
+    width: 100%;
+    padding: 1rem;
+    text-wrap: wrap;
+}
+
+.sideCont {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.fullWidth {
+    width: 100%;
+    margin-left: 22%;
+    height: auto;
+}
+
+.prodPage {
+    width: 100%;
+    height: auto;
+    margin: 0px 30px 0px 30px;
+}
+
+
+.dk{
+    text-align: center;
+    max-width:300px;
+    margin: 0 auto;
+}
+
+.dk , .hk {
+    margin-bottom: 10px;
+    font-size:20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dk p {
+  line-height: 2.0;
+  margin:30px 0px 30px 0px;
+}
+
+
+
+
+
+.productsList1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    text-align: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.name1{
+    text-align: center;
+    justify-content: center;
+}
+
+.plist1 {
+    cursor: pointer;
+    text-align: center;
+    margin:7px;
+    width:160px;
+}
+
+.productName1 {
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:150px;
+    margin: 0px 10px 0px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}

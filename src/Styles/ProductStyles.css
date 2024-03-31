@@ -1,0 +1,64 @@
+.productsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img {
+    text-align: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.name {
+    text-align: center;
+    justify-content: center;
+}
+
+.plist {
+    cursor: pointer;
+    text-align: center;
+    margin: 7px;
+    width: 280px;
+}
+
+.productName {
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+    margin: 0px 10px 0px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+.newProductLabel {
+    position:absolute;
+    top:82%;
+    left:282px;
+    color:black;
+    padding:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.outOfStockLabel {
+    position:absolute;
+    top:93%;
+    left:56%;
+    margin: 100px 0px 100px 14px;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    text-align: center;
+    color: #333;
+    height:20px;
+    width:216px;
+    padding:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,117 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+}
+
+.mdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: right;
+    justify-content: right;
+}
+
+.icon {
+    margin: 0px 20px 0px 20px;
+    color: black;
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.desc {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.des {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sidebar {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    text-wrap: wrap;
+}
+
+.productsPage {
+    height: auto;
+    border: 2px solid red;
+    margin-left: 22%;
+    width: 100%;
+    padding: 1rem;
+    text-wrap: wrap;
+}
+
+.sideCont {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.fullWidth {
+    width: 100%;
+    margin-left: 22%;
+    height: auto;
+}
+
+.prodPage {
+    width: 100%;
+    height: auto;
+    margin: 0px 30px 0px 30px;
+}
+
+
+.de {
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.de h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.de p {
+  line-height: 2.0;
+  margin:30px 0px 30px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        display: none;
+    }
+    .mb{
+        display: flex;
+        text-align: center;
+    }
+  }
